@@ -1,5 +1,5 @@
 def seed
-  if ENV['SEED_DB'] == 'true'
+  if ENV['HOMS_DB_SEED'] == 'true'
     add_admin
     add_initial_order_types
     add_initial_orders
